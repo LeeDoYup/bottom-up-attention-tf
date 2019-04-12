@@ -27,7 +27,7 @@ I checked the final results and it can be differ whether early-stopping is used.
 
 ### Implemented Graph (tensorboard) 
 <img src=./assets/model1.png width="500" height="550">
-<img src=./assets/model2.png width="500" height="550">
+<img src=./assets/model2.png width="500" height="650">
 
 ### Learning curve (score)
 ![lr_curve](./assets/learning_curve.png)
