@@ -5,7 +5,7 @@ The model details are in "Tips and Tricks for Visual
 Question Answering: Learnings from the 2017 Challenge"
 [paper](https://arxiv.org/abs/1708.02711).  
 This implementation is motivated from pytorch implementation [link](https://github.com/hengyuan-hu/bottom-up-attention-vqa)  
-Thanks [vaicarran](https://github.com/vaicarran) for help complete tensorflow version.
+This codes are collaboarted with [vaicarran](https://github.com/vaicarran).
 
 ## Some Info.
 - This code do **not** use visual-genome dataset fore pretraining.
@@ -27,7 +27,7 @@ I checked the final results and it can be differ whether early-stopping is used.
 
 ### Implemented Graph (tensorboard) 
 <img src=./assets/model1.png width="500" height="550">
-<img src=./assets/model2.png width="500" height="550">
+<img src=./assets/model2.png width="500" height="650">
 
 ### Learning curve (score)
 ![lr_curve](./assets/learning_curve.png)
