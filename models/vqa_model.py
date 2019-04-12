@@ -153,9 +153,6 @@ class VQA_Model(BaseModel):
                 break
                 
         self.save_weights(self.args.checkpoint_dir, step)
-        print('\n [Last Evaluation Result] \n')
-        print('[*] Mean Eval Loss:\t', eval_loss)
-        print('[*] Evaluation Score:\t', eval_score)
 
 
     def evaluate(self, step):
@@ -180,6 +177,11 @@ class VQA_Model(BaseModel):
         eval_num = len(self.dataset['eval'].entries.target)
         eval_loss = total_loss / float(eval_num)
         eval_score = total_score*100 / float(eval_num)
+
+        print('\n [Last Evaluation Result] \n')
+        print('[*] Mean Eval Loss:\t', eval_loss)
+        print('[*] Evaluation Score:\t', eval_score)
+        
         return eval_loss, eval_score
 
 
