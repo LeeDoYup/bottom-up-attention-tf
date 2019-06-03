@@ -4,8 +4,7 @@ An tensorflow implementation of the winning entry of the [2017 VQA Challenge](ht
 The model details are in "Tips and Tricks for Visual
 Question Answering: Learnings from the 2017 Challenge"
 [paper](https://arxiv.org/abs/1708.02711).  
-This implementation is motivated from pytorch implementation [link](https://github.com/hengyuan-hu/bottom-up-attention-vqa)  
-This codes are collaboarted with [vaicarran](https://github.com/vaicarran).
+This implementation is motivated from pytorch implementation [link](https://github.com/hengyuan-hu/bottom-up-attention-vqa).
 
 ## Some Info.
 - This code do **not** use visual-genome dataset fore pretraining.
