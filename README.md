@@ -10,6 +10,7 @@ This implementation is motivated from pytorch implementation [link](https://gith
 - This code do **not** use visual-genome dataset fore pretraining.
 - More number of hidden neurons are used than original paper (512 >> 1024)  
 - batch normalization is used in classifier.
+- This implementation requires large RAM size (~ 100 GB) by pretrained features.
 
 
 ## Results
