@@ -41,7 +41,7 @@ I checked the final results and it can be differ whether early-stopping is used.
 * ./models/top_down_attention.py : proposed top-down-attention module
 
 ## Prerequisites
-Make sure you are on a machine with a NVIDIA GPU and Python 3 with about **100 GB disk space**.  
+Make sure you are on a machine with a NVIDIA GPU and Python 3 with about **100 GB RAM space**.  
 This code needs more memory than pytorch version (70~80 GB).  
 Some issues are resolving to increase memory efficiency.  
 If you resolve, i always welcome PR.  
